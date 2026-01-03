@@ -182,8 +182,8 @@ UPDATE_PACKAGE "luci-app-taskplan" "sirpdboy/luci-app-taskplan" "master"
 #UPDATE_PACKAGE "luci-app-clouddrive2" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
 
 # istore增强
-#UPDATE_PACKAGE "istoreenhance" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
-#UPDATE_PACKAGE "luci-app-istoreenhance" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
+UPDATE_PACKAGE "istoreenhance" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
+UPDATE_PACKAGE "luci-app-istoreenhance" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
 
 # 易有云文件管理器
 #UPDATE_PACKAGE "linkmount" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
@@ -193,15 +193,15 @@ UPDATE_PACKAGE "luci-app-taskplan" "sirpdboy/luci-app-taskplan" "master"
 # istore首页及网络向导
 #UPDATE_PACKAGE "quickstart" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
 #UPDATE_PACKAGE "luci-app-quickstart" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
-#UPDATE_PACKAGE "quickstart" "kiddin9/kwrt-packages" "main" "pkg"
-#UPDATE_PACKAGE "luci-app-quickstart" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "quickstart" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-quickstart" "kiddin9/kwrt-packages" "main" "pkg"
 
 # istore商店
 #UPDATE_PACKAGE "luci-app-store" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
-#UPDATE_PACKAGE "luci-lib-xterm" "kiddin9/kwrt-packages" "main" "pkg"
-#UPDATE_PACKAGE "taskd" "kiddin9/kwrt-packages" "main" "pkg"
-#UPDATE_PACKAGE "luci-lib-taskd" "kiddin9/kwrt-packages" "main" "pkg"
-#UPDATE_PACKAGE "luci-app-store" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "luci-lib-xterm" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "taskd" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "luci-lib-taskd" "kiddin9/kwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-store" "kiddin9/kwrt-packages" "main" "pkg"
 
 # 统一文件共享
 #UPDATE_PACKAGE "webdav2" "shidahuilang/openwrt-package" "Immortalwrt" "pkg"
@@ -252,3 +252,8 @@ if [ -d "luci-app-athena-led" ]; then
     echo "Added execute permissions for athena_led files."
 fi
 #-------------------2025.05.31-测试-----------------#
+# luci-app-nekobox科学
+UPDATE_PACKAGE "luci-app-nekobox" "kiddin9/kwrt-packages" "main" "pkg"
+# luci-app-syncthing同步
+UPDATE_PACKAGE "luci-app-syncthing" "kiddin9/kwrt-packages" "main" "pkg"
+
